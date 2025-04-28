@@ -1,0 +1,21 @@
+[tool.poetry]
+package-mode = false
+name = "short_url_service"
+version = "0.1.0"
+description = ""
+authors = ["junyanzhao <junyanzhao1996@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+sqlalchemy = "^2.0.40"
+pymysql = "^1.1.1"
+pyyaml = "^6.0.2"
+cryptography = "^44.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
